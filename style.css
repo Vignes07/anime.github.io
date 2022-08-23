@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    flex: 1;
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.items {
+    border: 0.4rem solid black;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.grow {
+    flex-grow: 2;
+    transition: 0.5s;
+}
